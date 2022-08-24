@@ -1,7 +1,7 @@
 from bson import ObjectId
 from fastapi import APIRouter
-from mongo_db import conn
-from pessoa import Pessoa
+from schema.mongo_db import conn
+from models.pessoa import Pessoa
 from schema.pessoa import pessoaEntity, pessoasEntity
 
 Pessoas_Router = APIRouter()
